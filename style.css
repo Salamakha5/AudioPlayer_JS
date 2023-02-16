@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.container_player{
+    width: 440px;
+    height:630px;
+    background-color:#121315;
+    border-radius:10px;
+}
+.allPlayer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.img_container{
+    padding:25px 40px;
+}
+.timeLine{
+    height:3px;
+    margin:0px 7px;
+    background-color: #cccbcb;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+    color: #cccbcb;
+}
+.name_container{
+    color: #cccbcb;
+    margin-left:40px;
+}
+.name_song{
+    margin: 3px;
+    margin-bottom:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.arrow{
+    width:33px;
+    margin-top: 15px;
+    margin-left:15px;
+}
+.arrow1{
+    margin-top: 15px;
+    margin-right:15px;
+    transform: rotate(180deg);
+    width:33px;
+}
+.arrowControls{
+    margin: 0px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.form-range{
+    padding:10px;
+}
+.NowTime{
+    display: flex;
+    color:gray;
+}
+.SoundRange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+}
+.Sound{
+    width: 30px;
+}
